@@ -407,7 +407,7 @@ li:hover .description{
     width: auto;
     height: auto;
     width: 600px;
-    background: #fff;
+    background: #c0bfff;
     padding: 20px;
     border-radius: 5px;
     -moz-box-shadow: 0px 0px 5px #444444;
@@ -419,10 +419,33 @@ li:hover .description{
     z-index: 3;
 }
 
-.close {
+/* .close {
     float: right;
     cursor: pointer;
-}
+    font-size: 25px;
+    font-weight: bold;
+    color: #6766bd;
+} */
+
+.close {
+    background-color: #fff;
+    float:right;
+    width: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #c0bfff;
+    color: #c0bfff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+ .close:hover,
+ .close:focus {
+    color: #13124e;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 #gallerypopup #photopopup a img {
     width: 400px;
